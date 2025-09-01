@@ -26,6 +26,10 @@ public class Result<DATA> {
         return new Result<>(Meta.error(), null);
     }
 
+    public static <DATA> Result<DATA> error(String description) {
+        return new Result<>(Meta.error(description), null);
+    }
+
     public static <DATA> Result<DATA> ok(DATA data) {
         return new Result<>(Meta.ok(), data);
     }
@@ -43,6 +47,10 @@ public class Result<DATA> {
 
         public static Meta error() {
             return Meta.builder().status(ERROR).build();
+        }
+
+        public static Meta error(String description) {
+            return Meta.builder().status(ERROR).description(description).build();
         }
     }
 
