@@ -1,16 +1,20 @@
 package ru.bush.bush_cinema.model;
 
-import lombok.Builder;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Data
-@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Movie {
     private int id;
     private String name;
     private int duration;
-    private List<String> genre;
+    private String genre;
+    private int year;
     private String imageLink;
+    private List<Session> sessions;
 }
