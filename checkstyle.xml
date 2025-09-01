@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+    <!-- Общие настройки -->
+    <property name="charset" value="UTF-8"/>
+    <!-- влияет на расчёт длины строки и др. -->
+    <property name="tabWidth" value="4"/>
+
+    <!-- Файловые проверки (на уровне Checker) -->
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="true"/>
+    </module>
+
+    <module name="LineLength">
+        <property name="max" value="120"/>
+        <!-- обычно не проверяют package/import -->
+        <property name="ignorePattern" value="^(package|import) .*"/>
+    </module>
+
+    <!-- Запрет хвостовых пробелов -->
+    <module name="RegexpSingleline">
+        <!-- \s+$ — пробелы/таб в конце строки -->
+        <property name="format" value="\s+$"/>
+        <property name="message" value="Trailing whitespace is not allowed"/>
+    </module>
+
+    <!-- Запрет более чем одной пустой строки подряд -->
+    <module name="RegexpMultiline">
+        <!-- ^\s*$\n\s*$  — две пустые строки подряд -->
+        <property name="format" value="(?m)^\s*$\n\s*$"/>
+        <property name="message" value="Не допускается несколько пустых строк подряд"/>
+    </module>
+
+    <!-- Обязательная пустая строка в конце файла -->
+    <module name="NewlineAtEndOfFile"/>
+
+    <!-- Древо синтаксических проверок -->
+    <module name="TreeWalker">
+        <!-- Базовые отступы/выравнивание -->
+        <module name="Indentation">
+            <property name="basicOffset" value="4"/>
+            <property name="braceAdjustment" value="0"/>
+            <property name="caseIndent" value="4"/>
+            <property name="lineWrappingIndentation" value="8"/>
+            <property name="throwsIndent" value="4"/>
+        </module>
+
+        <!-- Запрет импорта со звёздочкой -->
+        <module name="AvoidStarImport">
+            <property name="allowClassImports" value="false"/>
+            <property name="allowStaticMemberImports" value="false"/>
+        </module>
+
+        <!-- Импорты -->
+        <module name="UnusedImports"/>
+
+        <!-- Именования -->
+        <module name="TypeName"/>          <!-- Классы/интерфейсы/enum/annotation -->
+        <module name="MethodName"/>
+        <module name="ParameterName"/>
+        <module name="LocalVariableName"/>
+    </module>
+</module>
