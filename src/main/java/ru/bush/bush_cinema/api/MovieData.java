@@ -3,7 +3,6 @@ package ru.bush.bush_cinema.api;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Data;
-import ru.bush.bush_cinema.model.Session;
 
 import java.util.List;
 
