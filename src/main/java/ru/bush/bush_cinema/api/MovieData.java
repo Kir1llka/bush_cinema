@@ -3,6 +3,7 @@ package ru.bush.bush_cinema.api;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Data;
+import ru.bush.bush_cinema.model.Session;
 
 import java.util.List;
 
@@ -13,6 +14,8 @@ public class MovieData {
     private int id;
     private String name;
     private int duration;
-    private List<String> genre;
+    private String genre;
+    private int year;
     private String imageLink;
+    private List<SessionData> sessions;
 }
