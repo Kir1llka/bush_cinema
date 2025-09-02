@@ -1,4 +1,4 @@
-package ru.bush.bush_cinema.api;
+package ru.bush.bush_cinema.api.movie;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

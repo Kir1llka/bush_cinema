@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Repository;
-import ru.bush.bush_cinema.model.Movie;
+import ru.bush.bush_cinema.model.movie.Movie;
 
 import java.io.IOException;
 import java.util.ArrayList;
