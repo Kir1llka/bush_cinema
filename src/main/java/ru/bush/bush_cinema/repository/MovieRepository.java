@@ -1,6 +1,6 @@
 package ru.bush.bush_cinema.repository;
 
-import ru.bush.bush_cinema.model.Movie;
+import ru.bush.bush_cinema.model.movie.Movie;
 
 import java.util.List;
 

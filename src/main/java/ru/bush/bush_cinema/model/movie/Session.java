@@ -1,4 +1,4 @@
-package ru.bush.bush_cinema.model;
+package ru.bush.bush_cinema.model.movie;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
