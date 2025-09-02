@@ -1,4 +1,4 @@
-package ru.bush.bush_cinema.api;
+package ru.bush.bush_cinema.api.movie;
 
 import lombok.Builder;
 import lombok.Data;
