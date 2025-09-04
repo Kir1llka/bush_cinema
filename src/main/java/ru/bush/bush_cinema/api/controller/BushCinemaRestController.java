@@ -53,6 +53,21 @@ public class BushCinemaRestController {
     }
 
     @Operation(
+            summary = "Получить фильм по его id",
+            description = "Возвращает объект фильма",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "Успех"),
+                    @ApiResponse(responseCode = "500", description = "Что-то пошло не так",
+                            content = @Content(schema = @Schema(implementation = Result.class)))
+            }
+    )
+    @GetMapping("/movies/{id}")
+    public Result<MovieData> getMovie(@PathVariable int id) {
+        var data = Convector.toMovieData(movieService.getMovie(id));
+        return Result.ok(data);
+    }
+
+    @Operation(
             summary = "Получить сеанс по ID",
             description = "Возвращает информацию о сеансе",
             responses = {
