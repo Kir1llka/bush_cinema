@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: bush_cinema
+
+springdoc:
+  swagger-ui:
+    operationsSorter: method     # или alpha, method, none
+    tagsSorter: alpha            # или alpha, none
