@@ -62,7 +62,11 @@ public class BushCinemaRestController {
             }
     )
     @GetMapping("/movies/{id}")
-    public Result<MovieData> getMovie(@PathVariable int id) {
+    public Result<MovieData> getMovie(
+            @PathVariable
+            @Parameter(name = "id", description = "ID фильма", example = "1")
+            int id
+    ) {
         var data = Convector.toMovieData(movieService.getMovie(id));
         return Result.ok(data);
     }

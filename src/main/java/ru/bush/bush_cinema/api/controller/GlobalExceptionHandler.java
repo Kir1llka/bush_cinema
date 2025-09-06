@@ -7,6 +7,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import ru.bush.bush_cinema.api.Result;
+import ru.bush.bush_cinema.model.movie.NoMovieException;
 import ru.bush.bush_cinema.model.session.SitReserveException;
 
 @RestControllerAdvice
@@ -14,6 +15,13 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(SitReserveException.class)
     public ResponseEntity<Result> handleSitReserveException(Exception ex) {
+        return ResponseEntity
+                .badRequest()
+                .body(Result.error(ex.getMessage()));
+    }
+
+    @ExceptionHandler(NoMovieException.class)
+    public ResponseEntity<Result> handleNotMovieException(Exception ex) {
         return ResponseEntity
                 .badRequest()
                 .body(Result.error(ex.getMessage()));
