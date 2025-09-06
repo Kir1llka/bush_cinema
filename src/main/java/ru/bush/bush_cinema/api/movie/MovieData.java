@@ -31,5 +31,8 @@ public class MovieData {
     @Schema(description = "Ссылка на картинку", example = "SUCCESS")
     private String imageLink;
 
+    @Schema(description = "Описание фильма", example = "Самый лучший детектив")
+    private String description;
+
     private List<SessionData> sessions;
 }

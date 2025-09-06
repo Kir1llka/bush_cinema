@@ -16,5 +16,6 @@ public class Movie {
     private String genre;
     private int year;
     private String imageLink;
+    private String description;
     private List<Session> sessions;
 }

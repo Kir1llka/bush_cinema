@@ -3,6 +3,7 @@ package ru.bush.bush_cinema.service;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import ru.bush.bush_cinema.model.movie.Movie;
+import ru.bush.bush_cinema.model.movie.NoMovieException;
 import ru.bush.bush_cinema.repository.MovieRepository;
 
 import java.util.List;
@@ -18,6 +19,10 @@ public class MovieService {
     }
 
     public Movie getMovie(int id) {
-        return repository.getMovie(id);
+        var movie = repository.getMovie(id);
+        if (movie == null) {
+            throw new NoMovieException("Такого фильма нет");
+        }
+        return movie;
     }
 }
