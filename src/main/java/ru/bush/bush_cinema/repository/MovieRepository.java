@@ -1,18 +1,7 @@
 package ru.bush.bush_cinema.repository;
 
-import ru.bush.bush_cinema.model.movie.Movie;
+import org.springframework.data.jpa.repository.JpaRepository;
+import ru.bush.bush_cinema.repository.entities.MovieEntity;
 
-import java.util.List;
-
-public interface MovieRepository {
-
-    List<Movie> getAllMovies();
-
-    Movie getMovie(int id);
-
-    void deleteMovie(int id);
-
-    void putMovie(Movie movie);
-
-    void clear();
+public interface MovieRepository extends JpaRepository<MovieEntity, Long> {
 }

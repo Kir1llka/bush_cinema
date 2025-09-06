@@ -14,7 +14,7 @@ import java.util.List;
 public class MovieData {
 
     @Schema(description = "ID фильма", example = "3")
-    private int id;
+    private Long id;
 
     @Schema(description = "Название", example = "Дюна")
     private String name;

@@ -1,19 +1,18 @@
-package ru.bush.bush_cinema.model;
+package ru.bush.bush_cinema.api;
 
 import ru.bush.bush_cinema.api.movie.MovieData;
 import ru.bush.bush_cinema.api.movie.SessionData;
 import ru.bush.bush_cinema.api.session.SessionFullData;
 import ru.bush.bush_cinema.api.session.SitData;
-import ru.bush.bush_cinema.model.movie.Movie;
-import ru.bush.bush_cinema.model.movie.Session;
-import ru.bush.bush_cinema.model.session.SessionFull;
-import ru.bush.bush_cinema.model.session.Sit;
-import ru.bush.bush_cinema.model.session.SitState;
+import ru.bush.bush_cinema.repository.entities.SitState;
+import ru.bush.bush_cinema.repository.entities.MovieEntity;
+import ru.bush.bush_cinema.repository.entities.SessionEntity;
+import ru.bush.bush_cinema.repository.entities.SitEntity;
 
 import java.util.List;
 
 public class Convector {
-    public static MovieData toMovieData(Movie movie) {
+    public static MovieData toMovieData(MovieEntity movie) {
         return MovieData.builder()
                 .id(movie.getId())
                 .name(movie.getName())
@@ -26,14 +25,14 @@ public class Convector {
                 .build();
     }
 
-    public static SessionData toSessionData(Session session) {
+    public static SessionData toSessionData(SessionEntity session) {
         return SessionData.builder()
                 .id(session.getId())
                 .time(session.getTime())
                 .build();
     }
 
-    public static SessionFullData toSessionFullData(SessionFull session, List<Sit> inCartSits) {
+    public static SessionFullData toSessionFullData(SessionEntity session, List<SitEntity> inCartSits) {
         return SessionFullData.builder()
                 .id(session.getId())
                 .time(session.getTime())
@@ -41,10 +40,11 @@ public class Convector {
                 .build();
     }
 
-    public static SitData toSitData(Sit sit, List<Sit> inCartSits) {
+    public static SitData toSitData(SitEntity sit, List<SitEntity> inCartSits) {
         var state = inCartSits.stream().anyMatch(s -> s.getCol() == sit.getCol() && s.getRow() == sit.getRow()) ?
                 SitState.IN_CART : sit.getState();
         return SitData.builder()
+                .id(sit.getId())
                 .col(sit.getCol())
                 .row(sit.getRow())
                 .state(state)

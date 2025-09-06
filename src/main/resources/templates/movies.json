@@ -17,16 +17,109 @@
       ],
       "sessions": [
         {
-          "id": "дюна-10:30",
-          "time": "10:30"
+          "time": "10:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "дюна-14:00",
-          "time": "14:00"
+          "time": "14:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "дюна-19:30",
-          "time": "19:30"
+          "time": "19:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -47,16 +140,109 @@
       ],
       "sessions": [
         {
-          "id": "оппенгеймер-11:00",
-          "time": "11:00"
+          "time": "11:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "оппенгеймер-15:00",
-          "time": "15:00"
+          "time": "15:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "оппенгеймер-20:10",
-          "time": "20:10"
+          "time": "20:10",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -77,16 +263,109 @@
       ],
       "sessions": [
         {
-          "id": "барби-12:00",
-          "time": "12:00"
+          "time": "12:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "барби-16:20",
-          "time": "16:20"
+          "time": "16:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "барби-21:40",
-          "time": "21:40"
+          "time": "21:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -107,16 +386,109 @@
       ],
       "sessions": [
         {
-          "id": "стрэндж-10:45",
-          "time": "10:45"
+          "time": "10:45",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "стрэндж-15:10",
-          "time": "15:10"
+          "time": "15:10",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "стрэндж-19:50",
-          "time": "19:50"
+          "time": "19:50",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -137,16 +509,109 @@
       ],
       "sessions": [
         {
-          "id": "бэтмен-13:00",
-          "time": "13:00"
+          "time": "13:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "бэтмен-17:40",
-          "time": "17:40"
+          "time": "17:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "бэтмен-22:10",
-          "time": "22:10"
+          "time": "22:10",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -167,16 +632,109 @@
       ],
       "sessions": [
         {
-          "id": "аватар-10:15",
-          "time": "10:15"
+          "time": "10:15",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "аватар-14:50",
-          "time": "14:50"
+          "time": "14:50",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "аватар-20:30",
-          "time": "20:30"
+          "time": "20:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -197,16 +755,109 @@
       ],
       "sessions": [
         {
-          "id": "гуччи-11:20",
-          "time": "11:20"
+          "time": "11:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "гуччи-16:00",
-          "time": "16:00"
+          "time": "16:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "гуччи-21:00",
-          "time": "21:00"
+          "time": "21:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -227,16 +878,109 @@
       ],
       "sessions": [
         {
-          "id": "паук-12:40",
-          "time": "12:40"
+          "time": "12:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "паук-17:20",
-          "time": "17:20"
+          "time": "17:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "паук-22:00",
-          "time": "22:00"
+          "time": "22:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -257,16 +1001,109 @@
       ],
       "sessions": [
         {
-          "id": "круэлла-10:50",
-          "time": "10:50"
+          "time": "10:50",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "круэлла-15:30",
-          "time": "15:30"
+          "time": "15:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "круэлла-20:15",
-          "time": "20:15"
+          "time": "20:15",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -287,16 +1124,109 @@
       ],
       "sessions": [
         {
-          "id": "энканто-11:40",
-          "time": "11:40"
+          "time": "11:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "энканто-16:10",
-          "time": "16:10"
+          "time": "16:10",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "энканто-19:50",
-          "time": "19:50"
+          "time": "19:50",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -317,16 +1247,109 @@
       ],
       "sessions": [
         {
-          "id": "душа-12:20",
-          "time": "12:20"
+          "time": "12:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "душа-17:00",
-          "time": "17:00"
+          "time": "17:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "душа-21:30",
-          "time": "21:30"
+          "time": "21:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -347,16 +1370,109 @@
       ],
       "sessions": [
         {
-          "id": "мулан-10:00",
-          "time": "10:00"
+          "time": "10:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "мулан-14:20",
-          "time": "14:20"
+          "time": "14:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "мулан-19:10",
-          "time": "19:10"
+          "time": "19:10",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -377,16 +1493,109 @@
       ],
       "sessions": [
         {
-          "id": "уик-13:30",
-          "time": "13:30"
+          "time": "13:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "уик-18:00",
-          "time": "18:00"
+          "time": "18:00",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "уик-22:40",
-          "time": "22:40"
+          "time": "22:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -407,16 +1616,109 @@
       ],
       "sessions": [
         {
-          "id": "бондумирать-11:10",
-          "time": "11:10"
+          "time": "11:10",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "бондумирать-15:40",
-          "time": "15:40"
+          "time": "15:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "бондумирать-20:30",
-          "time": "20:30"
+          "time": "20:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -437,16 +1739,109 @@
       ],
       "sessions": [
         {
-          "id": "вечные-12:50",
-          "time": "12:50"
+          "time": "12:50",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "вечные-17:30",
-          "time": "17:30"
+          "time": "17:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "вечные-22:20",
-          "time": "22:20"
+          "time": "22:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -467,16 +1862,109 @@
       ],
       "sessions": [
         {
-          "id": "ричард-10:40",
-          "time": "10:40"
+          "time": "10:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "ричард-14:30",
-          "time": "14:30"
+          "time": "14:30",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "ричард-19:20",
-          "time": "19:20"
+          "time": "19:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -497,16 +1985,109 @@
       ],
       "sessions": [
         {
-          "id": "анчартед-13:20",
-          "time": "13:20"
+          "time": "13:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "анчартед-18:10",
-          "time": "18:10"
+          "time": "18:10",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "анчартед-22:50",
-          "time": "22:50"
+          "time": "22:50",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     },
@@ -527,16 +2108,109 @@
       ],
       "sessions": [
         {
-          "id": "топган-11:50",
-          "time": "11:50"
+          "time": "11:50",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "топган-16:40",
-          "time": "16:40"
+          "time": "16:40",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         },
         {
-          "id": "топган-21:20",
-          "time": "21:20"
+          "time": "21:20",
+          "sits": [
+            {
+              "col": 1,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 1,
+              "row": 3,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 1,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 2,
+              "state": "FREE"
+            },
+            {
+              "col": 2,
+              "row": 3,
+              "state": "FREE"
+            }
+          ]
         }
       ]
     }

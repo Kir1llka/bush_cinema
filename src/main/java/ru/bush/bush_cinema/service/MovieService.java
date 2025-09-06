@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import ru.bush.bush_cinema.model.movie.Movie;
 import ru.bush.bush_cinema.model.movie.NoMovieException;
 import ru.bush.bush_cinema.repository.MovieRepository;
+import ru.bush.bush_cinema.repository.entities.MovieEntity;
 
 import java.util.List;
 
@@ -14,12 +15,12 @@ public class MovieService {
 
     private MovieRepository repository;
 
-    public List<Movie> getAllMovies() {
-        return repository.getAllMovies();
+    public List<MovieEntity> getAllMovies() {
+        return repository.findAll();
     }
 
-    public Movie getMovie(int id) {
-        var movie = repository.getMovie(id);
+    public MovieEntity getMovie(Long id) {
+        var movie = repository.findById(id).orElseThrow();
         if (movie == null) {
             throw new NoMovieException("Такого фильма нет");
         }

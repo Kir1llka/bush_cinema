@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ru.bush.bush_cinema.api.Convector;
 import ru.bush.bush_cinema.api.Result;
 import ru.bush.bush_cinema.api.movie.MovieData;
 import ru.bush.bush_cinema.api.session.ReserveSitRequest;
 import ru.bush.bush_cinema.api.session.SessionFullData;
-import ru.bush.bush_cinema.model.Convector;
 import ru.bush.bush_cinema.service.Cart;
 import ru.bush.bush_cinema.service.MovieService;
 import ru.bush.bush_cinema.service.SessionService;
@@ -65,7 +65,7 @@ public class BushCinemaRestController {
     public Result<MovieData> getMovie(
             @PathVariable
             @Parameter(name = "id", description = "ID фильма", example = "1")
-            int id
+            Long id
     ) {
         var data = Convector.toMovieData(movieService.getMovie(id));
         return Result.ok(data);
@@ -85,8 +85,8 @@ public class BushCinemaRestController {
     @GetMapping("/session/{id}")
     public Result<SessionFullData> getSession(
             @PathVariable
-            @Parameter(name = "id", description = "ID сеанса", example = "дюна-10:30")
-            String id
+            @Parameter(name = "id", description = "ID сеанса", example = "56")
+            Long id
     ) {
         var data = Convector.toSessionFullData(sessionService.getSession(id), cart.getSits());
         return Result.ok(data);
@@ -105,7 +105,7 @@ public class BushCinemaRestController {
     )
     @PostMapping("/sit/reserve")
     public Result<Void> reserveSit(@Valid @RequestBody ReserveSitRequest request) {
-        sessionService.reserveSit(request.getSessionId(), request.getCol(), request.getRow());
+        sessionService.reserveSit(request.getId());
         return Result.ok();
     }
 

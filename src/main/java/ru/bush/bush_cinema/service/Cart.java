@@ -1,10 +1,13 @@
 package ru.bush.bush_cinema.service;
 
 import jakarta.annotation.PreDestroy;
+import lombok.Getter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.annotation.SessionScope;
-import ru.bush.bush_cinema.model.session.Sit;
-import ru.bush.bush_cinema.model.session.SitState;
+import ru.bush.bush_cinema.repository.entities.SitState;
+import ru.bush.bush_cinema.repository.SitRepository;
+import ru.bush.bush_cinema.repository.entities.SitEntity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,18 +15,19 @@ import java.util.List;
 @Service
 @SessionScope
 public class Cart {
-    private final List<Sit> sits = new ArrayList<>();
 
-    public void addSit(Sit sit) {
+    @Getter
+    private final List<SitEntity> sits = new ArrayList<>();
+    @Autowired
+    private SitRepository sitRepository;
+
+    public void addSit(SitEntity sit) {
         sits.add(sit);
-    }
-
-    public List<Sit> getSits() {
-        return sits;
     }
 
     @PreDestroy
     private void destroy() {
         sits.forEach(s -> s.setState(SitState.FREE));
+        sitRepository.saveAll(sits);
     }
 }
