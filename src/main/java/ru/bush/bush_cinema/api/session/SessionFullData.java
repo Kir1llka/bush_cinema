@@ -13,8 +13,8 @@ import java.util.List;
 @Schema(description = "Полная информация о сеансе")
 public class SessionFullData {
 
-    @Schema(description = "ID сеанса", example = "дюна-10:30")
-    private String id;
+    @Schema(description = "ID сеанса", example = "56")
+    private Long id;
 
     @Schema(description = "Время сеанса", example = "10:30")
     private String time;

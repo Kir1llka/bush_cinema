@@ -9,8 +9,8 @@ import lombok.Data;
 @Schema(description = "Информация о сеансе")
 public class SessionData {
 
-    @Schema(description = "ID сеанса", example = "дюна-10:30")
-    private String id;
+    @Schema(description = "ID сеанса", example = "56")
+    private Long id;
 
     @Schema(description = "Время сеанса", example = "10:30")
     private String time;

@@ -1,4 +1,4 @@
-package ru.bush.bush_cinema.model.session;
+package ru.bush.bush_cinema.repository.entities;
 
 public enum SitState {
     FREE,

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import ru.bush.bush_cinema.api.Result;
 import ru.bush.bush_cinema.model.movie.NoMovieException;
-import ru.bush.bush_cinema.model.session.SitReserveException;
+import ru.bush.bush_cinema.service.exceptions.SitReserveException;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
