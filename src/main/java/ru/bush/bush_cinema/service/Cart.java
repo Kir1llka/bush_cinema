@@ -8,6 +8,7 @@ import org.springframework.web.context.annotation.SessionScope;
 import ru.bush.bush_cinema.repository.entities.SitState;
 import ru.bush.bush_cinema.repository.SitRepository;
 import ru.bush.bush_cinema.repository.entities.SitEntity;
+import ru.bush.bush_cinema.service.exceptions.SitCancelException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,5 +30,15 @@ public class Cart {
     private void destroy() {
         sits.forEach(s -> s.setState(SitState.FREE));
         sitRepository.saveAll(sits);
+    }
+
+    public void cancelSit(String id) {
+        var sit = sits.stream()
+                .filter(sitEntity -> sitEntity.getId().equals(id))
+                .findFirst()
+                .orElseThrow(() -> new SitCancelException("Место в корзине не найдено"));
+        sits.remove(sit);
+        sit.setState(SitState.FREE);
+        sitRepository.save(sit);
     }
 }
