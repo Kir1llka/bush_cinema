@@ -8,6 +8,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -108,5 +109,16 @@ public class BushCinemaRestController {
         sessionService.reserveSit(request.getId());
         return Result.ok();
     }
+
+    @DeleteMapping("/sit/cancel/{id}")
+    public Result<Void> cancelSit(
+            @PathVariable
+            @Parameter(name = "id", description = "ID места", example = "965c13ea-3aaf-4437-8522-58d4269a9227")
+            String id
+    ) {
+        cart.cancelSit(id);
+        return Result.ok();
+    }
+
 
 }
