@@ -9,6 +9,8 @@ import ru.bush.bush_cinema.repository.entities.MovieEntity;
 import ru.bush.bush_cinema.repository.entities.SessionEntity;
 import ru.bush.bush_cinema.repository.entities.SitEntity;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Convector {
@@ -25,7 +27,7 @@ public class Convector {
                 .build();
     }
 
-    public static SessionData toSessionData(SessionEntity session) {
+    private static SessionData toSessionData(SessionEntity session) {
         return SessionData.builder()
                 .id(session.getId())
                 .time(session.getTime())
@@ -35,13 +37,34 @@ public class Convector {
     public static SessionFullData toSessionFullData(SessionEntity session, List<SitEntity> inCartSits) {
         return SessionFullData.builder()
                 .id(session.getId())
+                .movieId(session.getMovie().getId())
                 .time(session.getTime())
-                .sits(session.getSits().stream().map(sit -> toSitData(sit, inCartSits)).toList())
+                .sits(toSitsArr(session.getSits(), inCartSits))
                 .build();
     }
 
-    public static SitData toSitData(SitEntity sit, List<SitEntity> inCartSits) {
-        var state = inCartSits.stream().anyMatch(s -> s.getCol() == sit.getCol() && s.getRow() == sit.getRow()) ?
+    private static List<List<SitData>> toSitsArr(List<SitEntity> sits, List<SitEntity> inCartSits) {
+        var result = new ArrayList<List<SitData>>();
+        var innerList = new ArrayList<SitData>();
+
+        int row = 1;
+        for (var sit : sits.stream()
+                .sorted(Comparator.comparing(SitEntity::getRow)
+                        .thenComparing(SitEntity::getCol))
+                .toList()) {
+            if (sit.getRow() != row) {
+                row++;
+                result.add(innerList);
+                innerList = new ArrayList<>();
+            }
+            innerList.add(toSitData(sit, inCartSits));
+        }
+        result.add(innerList);
+        return result;
+    }
+
+    private static SitData toSitData(SitEntity sit, List<SitEntity> inCartSits) {
+        var state = inCartSits.stream().anyMatch(s -> s.getId().equals(sit.getId())) ?
                 SitState.IN_CART : sit.getState();
         return SitData.builder()
                 .id(sit.getId())

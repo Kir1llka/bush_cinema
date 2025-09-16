@@ -2214,5 +2214,37 @@
         }
       ]
     }
+  ],
+  "sits": [
+    {
+      "col": 1,
+      "row": 1,
+      "state": "FREE"
+    },
+    {
+      "col": 2,
+      "row": 1,
+      "state": "FREE"
+    },
+    {
+      "col": 3,
+      "row": 1,
+      "state": "FREE"
+    },
+    {
+      "col": 1,
+      "row": 2,
+      "state": "FREE"
+    },
+    {
+      "col": 2,
+      "row": 2,
+      "state": "FREE"
+    },
+    {
+      "col": 3,
+      "row": 2,
+      "state": "FREE"
+    }
   ]
 }

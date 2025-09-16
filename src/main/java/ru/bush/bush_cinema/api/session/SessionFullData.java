@@ -16,8 +16,11 @@ public class SessionFullData {
     @Schema(description = "ID сеанса", example = "56")
     private Long id;
 
+    @Schema(description = "ID фильма", example = "3")
+    private Long movieId;
+
     @Schema(description = "Время сеанса", example = "10:30")
     private String time;
 
-    private List<SitData> sits;
+    private List<List<SitData>> sits;
 }
