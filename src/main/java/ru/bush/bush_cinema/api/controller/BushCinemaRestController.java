@@ -77,7 +77,7 @@ public class BushCinemaRestController {
             description = "Возвращает информацию о сеансе",
             responses = {
                     @ApiResponse(responseCode = "200", description = "Успешный ответ"),
-                    @ApiResponse(responseCode = "404", description = "Сеанс не найден",
+                    @ApiResponse(responseCode = "400", description = "Сеанс не найден",
                             content = @Content(schema = @Schema(implementation = Result.class))),
                     @ApiResponse(responseCode = "500", description = "Что-то пошло не так",
                             content = @Content(schema = @Schema(implementation = Result.class)))
@@ -98,7 +98,7 @@ public class BushCinemaRestController {
             description = "Возвращает статус операции",
             responses = {
                     @ApiResponse(responseCode = "200", description = "Успешный ответ"),
-                    @ApiResponse(responseCode = "404", description = "Место не найден",
+                    @ApiResponse(responseCode = "400", description = "Место не найден",
                             content = @Content(schema = @Schema(implementation = Result.class))),
                     @ApiResponse(responseCode = "500", description = "Что-то пошло не так",
                             content = @Content(schema = @Schema(implementation = Result.class)))
@@ -110,6 +110,17 @@ public class BushCinemaRestController {
         return Result.ok();
     }
 
+    @Operation(
+            summary = "Отменить бронь места",
+            description = "Отменяет бронь места",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "Успешный ответ"),
+                    @ApiResponse(responseCode = "400", description = "Место в корзине не найдено",
+                            content = @Content(schema = @Schema(implementation = Result.class))),
+                    @ApiResponse(responseCode = "500", description = "Что-то пошло не так",
+                            content = @Content(schema = @Schema(implementation = Result.class)))
+            }
+    )
     @DeleteMapping("/sit/cancel/{id}")
     public Result<Void> cancelSit(
             @PathVariable
@@ -120,5 +131,20 @@ public class BushCinemaRestController {
         return Result.ok();
     }
 
-
+    @Operation(
+            summary = "Заказать билеты",
+            description = "Делает билеты купленными",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "Успешный ответ"),
+                    @ApiResponse(responseCode = "400", description = "Места не найдены, нечего покупать",
+                            content = @Content(schema = @Schema(implementation = Result.class))),
+                    @ApiResponse(responseCode = "500", description = "Что-то пошло не так",
+                            content = @Content(schema = @Schema(implementation = Result.class)))
+            }
+    )
+    @PostMapping("/post/order")
+    public Result<Void> postOrder() {
+        cart.postOrder();
+        return Result.ok();
+    }
 }

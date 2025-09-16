@@ -8,6 +8,7 @@ import org.springframework.web.context.annotation.SessionScope;
 import ru.bush.bush_cinema.repository.entities.SitState;
 import ru.bush.bush_cinema.repository.SitRepository;
 import ru.bush.bush_cinema.repository.entities.SitEntity;
+import ru.bush.bush_cinema.service.exceptions.PostOrderException;
 import ru.bush.bush_cinema.service.exceptions.SitCancelException;
 
 import java.util.ArrayList;
@@ -40,5 +41,14 @@ public class Cart {
         sits.remove(sit);
         sit.setState(SitState.FREE);
         sitRepository.save(sit);
+    }
+
+    public void postOrder() {
+        if (sits.isEmpty()) {
+            throw new PostOrderException("Места не найдены, нечего покупать");
+        }
+        sits.forEach(sitEntity -> sitEntity.setState(SitState.TAKEN));
+        sitRepository.saveAll(sits);
+        sits.clear();
     }
 }

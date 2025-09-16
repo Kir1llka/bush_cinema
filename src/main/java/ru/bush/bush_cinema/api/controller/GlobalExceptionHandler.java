@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import ru.bush.bush_cinema.api.Result;
 import ru.bush.bush_cinema.service.exceptions.NoMovieException;
+import ru.bush.bush_cinema.service.exceptions.PostOrderException;
+import ru.bush.bush_cinema.service.exceptions.SitCancelException;
 import ru.bush.bush_cinema.service.exceptions.SitReserveException;
 
 @RestControllerAdvice
@@ -43,5 +45,19 @@ public class GlobalExceptionHandler {
         return ResponseEntity
                 .status(HttpStatus.INTERNAL_SERVER_ERROR)
                 .body(Result.error("Внутренняя ошибка: " + ex.getMessage()));
+    }
+
+    @ExceptionHandler(PostOrderException.class)
+    public ResponseEntity<Result> handlePostOrderException(Exception ex) {
+        return ResponseEntity
+                .badRequest()
+                .body(Result.error(ex.getMessage()));
+    }
+
+    @ExceptionHandler(SitCancelException.class)
+    public ResponseEntity<Result> handleSitCancelException(Exception ex) {
+        return ResponseEntity
+                .badRequest()
+                .body(Result.error(ex.getMessage()));
     }
 }
