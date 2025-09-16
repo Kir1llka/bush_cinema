@@ -28,8 +28,13 @@ public class MovieData {
     @Schema(description = "Год выпуска", example = "2025")
     private int year;
 
-    @Schema(description = "Ссылка на картинку", example = "SUCCESS")
-    private String imageLink;
+    @Schema(description = "Ссылка на картинку постера",
+            example = "https://kinopoiskapiunofficial.tech/images/posters/kp/4540126.jpg")
+    private String posterUrl;
+
+    @Schema(description = "Ссылка на превью картинку постера",
+            example = "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4540126.jpg")
+    private String posterUrlPreview;
 
     @Schema(description = "Описание фильма", example = "Самый лучший детектив")
     private String description;

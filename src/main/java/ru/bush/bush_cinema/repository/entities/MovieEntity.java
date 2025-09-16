@@ -26,13 +26,15 @@ public class MovieEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private Long kinopoiskId;
     private String name;
     private int duration;
     private String genre;
     private String description;
     @Column(name = "release_year")
     private int year;
-    private String imageLink;
+    private String posterUrl;
+    private String posterUrlPreview;
 
     @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
     private List<SessionEntity> sessions;
