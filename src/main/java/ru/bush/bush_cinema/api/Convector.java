@@ -21,7 +21,8 @@ public class Convector {
                 .duration(movie.getDuration())
                 .genre(movie.getGenre())
                 .year(movie.getYear())
-                .imageLink(movie.getImageLink())
+                .posterUrl(movie.getPosterUrl())
+                .posterUrlPreview(movie.getPosterUrlPreview())
                 .description(movie.getDescription())
                 .sessions(movie.getSessions().stream().map(Convector::toSessionData).toList())
                 .build();

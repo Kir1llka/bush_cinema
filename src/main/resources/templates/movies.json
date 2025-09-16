@@ -2,11 +2,13 @@
   "movies": [
     {
       "id": 1,
+      "kinopoiskId": 4540126,
       "name": "Дюна: Часть вторая",
       "duration": 166,
       "genre": "Фантастика, Драма",
       "year": 2024,
-      "imageLink": "https://i.ibb.co.com/Cpv5PHS7/Duna-Poster.jpg",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4540126.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4540126.jpg",
       "description": "Герцог Пол Атрейдес объединяет народы Арракиса, чтобы отомстить за предательство семьи и защитить планету. Его путь — борьба за власть, судьбу и любовь.",
       "tags": [
         "фантастика",
@@ -125,11 +127,13 @@
     },
     {
       "id": 2,
+      "kinopoiskId": 4664634,
       "name": "Оппенгеймер",
       "duration": 180,
       "genre": "Биография, Драма",
       "year": 2023,
-      "imageLink": "https://i.ibb.co.com/DgDw2ngq/Open-Her-Poster.jpg",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4664634.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4664634.jpg",
       "description": "История Роберта Оппенгеймера, создателя атомной бомбы. Драма о гении, который навсегда изменил мир, но заплатил за это моральной ценой и внутренними терзаниями.",
       "tags": [
         "биография",
@@ -248,11 +252,13 @@
     },
     {
       "id": 3,
+      "kinopoiskId": 478052,
       "name": "Барби",
       "duration": 114,
       "genre": "Комедия, Фэнтези",
       "year": 2023,
-      "imageLink": "https://i.ibb.co.com/hRKDKPFL/Bar-By-Poster.jpg",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/478052.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/478052.jpg",
       "description": "Барби живёт в идеальном мире, но внезапно сталкивается с кризисом идентичности. Чтобы понять своё предназначение, она отправляется в путешествие в реальный мир.",
       "tags": [
         "комедия",
@@ -371,11 +377,13 @@
     },
     {
       "id": 4,
+      "kinopoiskId": 1219909,
       "name": "Доктор Стрэндж: Мультивселенная безумия",
       "duration": 126,
       "genre": "Фантастика, Приключения",
       "year": 2022,
-      "imageLink": "https://i.ibb.co.com/rKtpJ12P/Doctorl-Poster.jpg",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1219909.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1219909.jpg",
       "description": "Доктор Стрэндж сталкивается с разрушительными последствиями открытия мультивселенной. Его ждут параллельные миры, неожиданные враги и союзники, а также испытание собственной силы и разума.",
       "tags": [
         "фантастика",
@@ -494,11 +502,13 @@
     },
     {
       "id": 5,
+      "kinopoiskId": 590286,
       "name": "Бэтмен",
       "duration": 176,
       "genre": "Боевик, Криминал",
       "year": 2022,
-      "imageLink": "https://i.ibb.co.com/Rp7ZSRbV/Bat-Man-Poster.jpg",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/590286.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/590286.jpg",
       "description": "Готэм охвачен коррупцией и преступностью. Брюс Уэйн в образе Бэтмена сталкивается с Загадочником, раскрывая тёмные тайны города и собственной семьи.",
       "tags": [
         "боевик",
@@ -617,11 +627,13 @@
     },
     {
       "id": 6,
+      "kinopoiskId": 505898,
       "name": "Аватар: Путь воды",
       "duration": 192,
       "genre": "Фантастика, Приключения",
       "year": 2022,
-      "imageLink": "https://i.ibb.co.com/C3wYVkX5/Avatar-Poster.jpg",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/505898.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/505898.jpg",
       "description": "Джейк Салли и его семья исследуют океаны Пандоры, сталкиваясь с новой угрозой. Величественные пейзажи, древние существа и борьба за выживание продолжают историю На’ви.",
       "tags": [
         "фантастика",
@@ -740,11 +752,13 @@
     },
     {
       "id": 7,
+      "kinopoiskId": 1449368,
       "name": "Дом Гуччи",
       "duration": 157,
       "genre": "Драма, Криминал",
       "year": 2021,
-      "imageLink": "https://i.ibb.co.com/Xxnx7FPF/Gucci-Poster.jpg",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1449368.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1449368.jpg",
       "description": "История семьи Гуччи, полной страсти, предательства и жажды власти. Драма о том, как личные амбиции и интриги разрушили легендарный модный дом.",
       "tags": [
         "драма",
@@ -867,7 +881,7 @@
       "duration": 148,
       "genre": "Фантастика, Боевик",
       "year": 2021,
-      "imageLink": "https://i.ibb.co.com/0yxmdTnt/Spider-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/0yxmdTnt/Spider-Poster.jpg",
       "description": "Питер Паркер сталкивается с последствиями раскрытия личности. Заклинание Доктора Стрэнджа ломает реальность, открывая врагов из других вселенных. Его ждёт величайшее испытание.",
       "tags": [
         "фантастика",
@@ -990,7 +1004,7 @@
       "duration": 134,
       "genre": "Комедия, Криминал",
       "year": 2021,
-      "imageLink": "https://i.ibb.co.com/n8DQWGXD/Kruella-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/n8DQWGXD/Kruella-Poster.jpg",
       "description": "История дерзкой и амбициозной девушки Эстеллы, чья страсть к моде приводит её к превращению в легендарную и безжалостную Круэллу де Виль.",
       "tags": [
         "драма",
@@ -1113,7 +1127,7 @@
       "duration": 109,
       "genre": "Мультфильм, Фэнтези",
       "year": 2021,
-      "imageLink": "https://i.ibb.co.com/rGN0T1Lb/Enkanto-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/rGN0T1Lb/Enkanto-Poster.jpg",
       "description": "Семья Мадригал живёт в волшебном доме, где каждый обладает уникальным даром. Только юная Мирабель остаётся без силы, но именно ей предстоит спасти семью.",
       "tags": [
         "мультфильм",
@@ -1236,7 +1250,7 @@
       "duration": 100,
       "genre": "Мультфильм, Фэнтези",
       "year": 2020,
-      "imageLink": "https://i.ibb.co.com/xKbr9csb/Soul-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/xKbr9csb/Soul-Poster.jpg",
       "description": "Учитель музыки Джо Гарднер мечтает о большой сцене, но внезапно оказывается между жизнью и смертью, где открывает истинный смысл существования.",
       "tags": [
         "мультфильм",
@@ -1359,7 +1373,7 @@
       "duration": 115,
       "genre": "Фэнтези, Боевик",
       "year": 2020,
-      "imageLink": "https://i.ibb.co.com/f5ytg8B/Mulan-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/f5ytg8B/Mulan-Poster.jpg",
       "description": "Юная девушка Мулан выдаёт себя за мужчину, чтобы вступить в армию и защитить семью и родину. Её ждёт путь чести, мужества и самопожертвования.",
       "tags": [
         "фэнтези",
@@ -1482,7 +1496,7 @@
       "duration": 169,
       "genre": "Боевик, Триллер",
       "year": 2023,
-      "imageLink": "https://i.ibb.co.com/6cNRrYk5/JWeak-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/6cNRrYk5/JWeak-Poster.jpg",
       "description": "Джон Уик объявляет войну Высокому столу. Его ждут опасные союзники, смертельные враги и кровавые бои, где каждая минута может стать последней.",
       "tags": [
         "боевик",
@@ -1605,7 +1619,7 @@
       "duration": 163,
       "genre": "Боевик, Шпионский",
       "year": 2021,
-      "imageLink": "https://i.ibb.co.com/cK3cY0Ks/Missia-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/cK3cY0Ks/Missia-Poster.jpg",
       "description": "Джеймс Бонд возвращается, чтобы остановить нового опасного врага. Миссия наполнена предательством, любовью и смертельными технологиями.",
       "tags": [
         "боевик",
@@ -1728,7 +1742,7 @@
       "duration": 157,
       "genre": "Фантастика, Боевик",
       "year": 2021,
-      "imageLink": "https://i.ibb.co.com/rKtpJ12P/Doctorl-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/rKtpJ12P/Doctorl-Poster.jpg",
       "description": "Бессмертные герои, скрывающиеся тысячелетиями, выходят из тени, чтобы защитить Землю от древней угрозы. Их объединяет долг, но разделяют тайны прошлого.",
       "tags": [
         "фантастика",
@@ -1851,7 +1865,7 @@
       "duration": 145,
       "genre": "Драма, Биография",
       "year": 2021,
-      "imageLink": "https://i.ibb.co.com/twQZ3CmS/Kings-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/twQZ3CmS/Kings-Poster.jpg",
       "description": "История Ричарда Уильямса, отца знаменитых теннисисток Винус и Серены. Его упорство и вера помогли дочерям достичь величайших успехов в спорте.",
       "tags": [
         "драма",
@@ -1974,7 +1988,7 @@
       "duration": 116,
       "genre": "Приключения, Боевик",
       "year": 2022,
-      "imageLink": "https://i.ibb.co.com/RTqdSdGW/Uncharted-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/RTqdSdGW/Uncharted-Poster.jpg",
       "description": "Охотник за сокровищами Натан Дрейк отправляется в опасное путешествие по следам пропавшего брата и легендарного клада, сталкиваясь с предательством и смертельными испытаниями.",
       "tags": [
         "приключения",
@@ -2097,7 +2111,7 @@
       "duration": 131,
       "genre": "Боевик, Драма",
       "year": 2022,
-      "imageLink": "https://i.ibb.co.com/GfYfTdRM/Top-Gun-Poster.jpg",
+      "posterUrl": "https://i.ibb.co.com/GfYfTdRM/Top-Gun-Poster.jpg",
       "description": "Пит «Мэверик» Митчелл возвращается к службе, чтобы тренировать новое поколение пилотов. Его ждут опасные миссии, дружба и воспоминания о прошлом.",
       "tags": [
         "боевик",
