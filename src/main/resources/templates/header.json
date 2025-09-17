@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "status": "SUCCESS"
+  },
+  "data": [
+    {
+      "id": 1,
+      "name": "Дюна: Часть вторая",
+      "year": 2024,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4540126.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4540126.jpg",
+      "description": "Герцог Пол Атрейдес объединяет народы Арракиса, чтобы отомстить за предательство семьи и защитить планету. Его путь — борьба за власть, судьбу и любовь."
+    },
+    {
+      "id": 2,
+      "name": "Оппенгеймер",
+      "year": 2023,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4664634.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4664634.jpg",
+      "description": "История Роберта Оппенгеймера, создателя атомной бомбы. Драма о гении, который навсегда изменил мир, но заплатил за это моральной ценой и внутренними терзаниями."
+    },
+    {
+      "id": 3,
+      "name": "Барби",
+      "year": 2023,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/478052.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/478052.jpg",
+      "description": "Барби живёт в идеальном мире, но внезапно сталкивается с кризисом идентичности. Чтобы понять своё предназначение, она отправляется в путешествие в реальный мир."
+    }
+  ]
+}
