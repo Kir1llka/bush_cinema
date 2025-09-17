@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "status": "SUCCESS"
+  },
+  "data": [
+    {
+      "imgBackground": "/images/news/Background2.jpg",
+      "name": "НАСТОЯЩЕЕ ПОГРУЖЕНИЕ",
+      "desc": "В ЗАЛЕ УСТАНОВЛЕНО ВЫСОКОКАЧЕСТВЕННОЕ ЗВУКОВОЕ ОБОРУДОВАНИЕ",
+      "img": "/images/news/Chairs.png"
+    },
+    {
+      "imgBackground": "/images/news/Background1.jpg",
+      "name": "БОЛЬШЕ УДОБСТВА",
+      "desc": "МЫ МОДЕРНИЗИРОВАЛИ КРЕСЛА В ЗАЛЕ, ВАС ЖДЕТ НАКЛОН НА 60 ГРАДУСОВ И УДОБНЫЕ  ПОДУШКИ.",
+      "img": "/images/news/Chairs.png"
+    },
+    {
+      "imgBackground": "/images/news/Background3.jpg",
+      "name": "ДЕШЕВО И ВКУСНО",
+      "desc": "ТЕПЕРЬ ВЫ МОЖЕТЕ ЗАКУПИТЬСЯ ПОПКОРНОМ, НАПИТКАМИ, МНОЖЕСТВОМ СНЕКОВ ПРЯМО ПЕРЕД ФИЛЬМОМ",
+      "img": "/images/news/Chairs.png"
+    }
+  ]
+}
